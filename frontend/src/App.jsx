@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div>Hej</div>
+      <div>Hej på dig </div>
     </>
   );
 }
