@@ -6,7 +6,7 @@ function App() {
     fetch("/api")
       .then((response) => response.json())
       .then((result) => {
-        alert(`Hello ${result.hello}!`);
+        console.log(result);
       });
   }, []);
 
